@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">Biểu mẫu lấy thông tin người dùng</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="Enter_full_name">Nhập họ và tên</string>
+    <string name="address">Địa chỉ</string>
+    <string name="email">Email</string>
+    <string name="enter_address">Nhập địa chỉ</string>
+    <string name="enter_email">Enter email</string>
+    <string name="phone_number">Điện thoại</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="submit">Gửi thông tin</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_application"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:paddingStart="20sp"
+        android:background="@color/purple_500"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_11"
+            android:background="@color/red"
+            android:textSize="40sp"
+            android:padding="30sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_view_12"
+            android:background="@color/blue"
+            android:textSize="40sp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_2"
+        android:background="@color/green"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_3"
+        android:background="@color/pink"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_4"
+        android:background="@color/yellow"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+</LinearLayout>

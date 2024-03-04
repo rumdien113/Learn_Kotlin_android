@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="@string/title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_span="2"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/full_name"
+            android:textSize="20sp" />
+        <EditText
+            android:hint="@string/Enter_full_name"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/address"
+            android:textSize="20sp" />
+        <EditText
+            android:hint="@string/enter_address"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/email"
+            android:textSize="20sp" />
+        <EditText
+            android:hint="@string/enter_email"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/phone_number"
+            android:textSize="20sp" />
+        <EditText
+            android:hint="@string/enter_phone_number"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="@string/submit"
+            android:textSize="20sp"
+            android:layout_span="2" />
+    </TableRow>
+
+</TableLayout>
